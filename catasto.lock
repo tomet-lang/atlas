@@ -20,22 +20,22 @@
       "commit": "77f520ba7add3b3ee07b7e48e03f6509341ff87c"
     },
     ".tomet/schema/catasto@1.0.0.blueprint.ctmt": {
-      "sha256": "1fdf340842664a081c66ecebf956fb0e1a17483820ced2677242572e8b278001",
+      "sha256": "11f859f41e9722e58a3a9cab166dadbea775cb8dbc4828f971351db6f26a961e",
       "source": {
         "git": "https://github.com/tomet-lang/fs-catasto.git",
         "rev": "main",
         "path": "tmtroot/schema/catasto@1.0.0.blueprint.ctmt"
       },
-      "commit": "4eb2b144b956ce4f78848a9f2f9da92678255992"
+      "commit": "9a84e88dc4538efe248b687003458c0b60cc75b9"
     },
     ".tomet/schema/catasto@1.0.0.vocabulary.tmt": {
-      "sha256": "3259c87a389a1bf6ab279c195ef330f6600bdb551c0a768f38a338b7d9787be5",
+      "sha256": "0e55ace45c47d102a2a1d8cc92b9ccce1f0031eaeb219a898b9048a1c10ad719",
       "source": {
         "git": "https://github.com/tomet-lang/fs-catasto.git",
         "rev": "main",
         "path": "tmtroot/schema/catasto@1.0.0.vocabulary.tmt"
       },
-      "commit": "4eb2b144b956ce4f78848a9f2f9da92678255992"
+      "commit": "9a84e88dc4538efe248b687003458c0b60cc75b9"
     },
     "LICENSE-APACHE": {
       "sha256": "a549c19a5c34ad57b10e336bdfad9cb6040c2fc311ed217f01c7a9c4ddee6015",

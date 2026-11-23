@@ -33,16 +33,14 @@ Declare `atlas` in `catasto.ctmt` and pull the shared dictionary file, then run 
 )
 ```
 
-### Mounting Atlas as a repository with `catasto.repo`
+### Taking Atlas directories with `catasto.upstream`
 
-Portals such as `website` can mount the full `atlas` worktree into `repos/atlas`:
+Portals such as `website` can pull the `atlas` vault config and document directories into `repos/atlas/`:
 
 ```text
-"repos/atlas": catasto.repo(
-  "https://github.com/tomet-lang/atlas.git",
-  branch: main,
-  submodule: false
-)
+"repos/atlas/vault.config.tmt": catasto.upstream(atlas, path: "vault.config.tmt")
+"repos/atlas/dict":             catasto.upstream(atlas, path: "dict")
+"repos/atlas/docs":             catasto.upstream(atlas, path: "docs")
 ```
 
 ## License

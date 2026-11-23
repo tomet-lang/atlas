@@ -4,11 +4,11 @@
   fs_catasto:  catasto.git("https://github.com/tomet-lang/fs-catasto.git", rev: main, root: "tmtroot/schema")
 )
 
-// Schema
+// --- Schema ---
 ".tomet/schema/catasto@1.0.0.vocabulary.tmt": catasto.upstream(fs_catasto, path: "catasto@1.0.0.vocabulary.tmt")
 ".tomet/schema/catasto@1.0.0.blueprint.ctmt": catasto.upstream(fs_catasto, path: "catasto@1.0.0.blueprint.ctmt")
 
-// Environment
+// --- Environment ---
 ".editorconfig":  catasto.upstream(commonfiles, path: ".editorconfig")
 ".gitattributes": catasto.upstream(commonfiles, path: ".gitattributes")
 "LICENSE-APACHE": catasto.upstream(commonfiles, path: "LICENSE-APACHE")
