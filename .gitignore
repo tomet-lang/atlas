@@ -1,0 +1,15 @@
+# Files ignored by Git.
+
+#= Build
+result
+result-*
+
+#= Develop
+.direnv/
+.claude/
+.agents/
+.idea/
+.zed/
+.vscode/
+*.swp
+*~

@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "files": {
+    ".editorconfig": {
+      "sha256": "dd25aacb9e34b5819b0b0645843fd42f786ca0bb4f9089afa922f162e593179f",
+      "source": {
+        "git": "https://github.com/tomet-lang/commonfiles.git",
+        "rev": "main",
+        "path": "base/.editorconfig"
+      },
+      "commit": "77f520ba7add3b3ee07b7e48e03f6509341ff87c"
+    },
+    ".gitattributes": {
+      "sha256": "2c4d2530e6c2f455de09b135a57ea1ec71790ccffaa4eadcdd4643ee466d76c3",
+      "source": {
+        "git": "https://github.com/tomet-lang/commonfiles.git",
+        "rev": "main",
+        "path": "base/.gitattributes"
+      },
+      "commit": "77f520ba7add3b3ee07b7e48e03f6509341ff87c"
+    },
+    ".tomet/schema/catasto@1.0.0.blueprint.ctmt": {
+      "sha256": "1fdf340842664a081c66ecebf956fb0e1a17483820ced2677242572e8b278001",
+      "source": {
+        "git": "https://github.com/tomet-lang/fs-catasto.git",
+        "rev": "main",
+        "path": "tmtroot/schema/catasto@1.0.0.blueprint.ctmt"
+      },
+      "commit": "4eb2b144b956ce4f78848a9f2f9da92678255992"
+    },
+    ".tomet/schema/catasto@1.0.0.vocabulary.tmt": {
+      "sha256": "3259c87a389a1bf6ab279c195ef330f6600bdb551c0a768f38a338b7d9787be5",
+      "source": {
+        "git": "https://github.com/tomet-lang/fs-catasto.git",
+        "rev": "main",
+        "path": "tmtroot/schema/catasto@1.0.0.vocabulary.tmt"
+      },
+      "commit": "4eb2b144b956ce4f78848a9f2f9da92678255992"
+    },
+    "LICENSE-APACHE": {
+      "sha256": "a549c19a5c34ad57b10e336bdfad9cb6040c2fc311ed217f01c7a9c4ddee6015",
+      "source": {
+        "git": "https://github.com/tomet-lang/commonfiles.git",
+        "rev": "main",
+        "path": "base/LICENSE-APACHE"
+      },
+      "commit": "77f520ba7add3b3ee07b7e48e03f6509341ff87c"
+    },
+    "LICENSE-MIT": {
+      "sha256": "24d88f36f2620d2b18d70bc2136e103b1f9910a63a4614d94404577b2a41f5a0",
+      "source": {
+        "git": "https://github.com/tomet-lang/commonfiles.git",
+        "rev": "main",
+        "path": "base/LICENSE-MIT"
+      },
+      "commit": "77f520ba7add3b3ee07b7e48e03f6509341ff87c"
+    }
+  }
+}
